@@ -1,0 +1,9 @@
+#include<stdio.h>
+main(){
+	
+	char minuscula, mayuscula;
+	printf("intrduce un caracter en minuscula:\n");
+	scanf("%c", &minuscula);
+	mayuscula=minuscula-32;
+	printf("el caracter %c en mayuscula es %c\n", minuscula, mayuscula);
+}
